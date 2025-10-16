@@ -1,16 +1,58 @@
-# flutter_app
+# 📝 Flutter To-Do App
 
-Flutter Todo App
+## 📘 Overview
+This project is a simple **To-Do List Application** built with **Flutter (Dart)**.  
+It was developed to practice **state management**, **UI layout**, and **data persistence** in Flutter.
 
-## Getting Started
+The app allows users to **add, edit, delete, and manage tasks** efficiently through a clean and intuitive interface.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
+- Add, edit, and delete tasks
+- Mark tasks as completed or pending
+- Simple and clean user interface
+- Local data storage support (optional with `shared_preferences` or similar)
+- Cross-platform support (Android / iOS)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+| Category | Technology |
+|----------|------------|
+| Language | Dart |
+| Framework | Flutter |
+| IDE | Android Studio / IntelliJ Community |
+| Version Control | Git, GitHub |
+
+---
+
+## 📂 Project Structure
+lib/
+├── main.dart
+├── model/
+│ └── todo.dart
+├── screens/
+│ └── home.dart
+├── widgets/
+│ └── todo_item.dart
+└── utils/
+│ └──secure_storage.dart
+└── constants/
+│ └──colors.dart
+└── dao/
+│ └──todoDao.dart
+└── data/
+│ └──db_helper.dart
+└── service/
+│ └──todo_service.dart
+└── storage_helper.dart
+
+---
+
+## 🔮 Future Improvements
+- Add due dates and task reminders
+- Add filtering and sorting options
+- Sync with cloud storage (Firebase or Supabase)
+- Apply advanced state management (Provider, Riverpod, or Bloc)
+- Support for dark mode and responsive design
