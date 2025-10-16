@@ -36,16 +36,16 @@ lib/
 │ └── home.dart
 ├── widgets/
 │ └── todo_item.dart
-└── utils/
-│ └──secure_storage.dart
-└── constants/
-│ └──colors.dart
-└── dao/
-│ └──todoDao.dart
-└── data/
-│ └──db_helper.dart
-└── service/
-│ └──todo_service.dart
+├── utils/
+│ └── secure_storage.dart
+├── constants/
+│ └── colors.dart
+├── dao/
+│ └── todoDao.dart
+├── data/
+│ └── db_helper.dart
+├── service/
+│ └── todo_service.dart
 └── storage_helper.dart
 
 🔮 향후 개선 아이디어
