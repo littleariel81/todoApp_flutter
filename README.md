@@ -48,8 +48,7 @@ lib/
 ├── service/
 │   └── todo_service.dart
 └── storage_helper.dart
-
----
+```
 
 ## 🔮 Future Improvements
 - Add due dates and task reminders
