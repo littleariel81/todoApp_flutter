@@ -31,22 +31,23 @@
 lib/
 ├── main.dart
 ├── model/
-│ └── todo.dart
+│   └── todo.dart
 ├── screens/
-│ └── home.dart
+│   └── home.dart
 ├── widgets/
-│ └── todo_item.dart
+│   └── todo_item.dart
 ├── utils/
-│ └── secure_storage.dart
+│   └── secure_storage.dart
 ├── constants/
-│ └── colors.dart
+│   └── colors.dart
 ├── dao/
-│ └── todoDao.dart
+│   └── todoDao.dart
 ├── data/
-│ └── db_helper.dart
+│   └── db_helper.dart
 ├── service/
-│ └── todo_service.dart
+│   └── todo_service.dart
 └── storage_helper.dart
+
 
 🔮 향후 개선 아이디어
 - 마감일 설정 및 알림 기능 추가
