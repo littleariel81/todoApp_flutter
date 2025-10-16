@@ -28,6 +28,7 @@ The app allows users to **add, edit, delete, and manage tasks** efficiently thro
 ---
 
 ## 📂 Project Structure
+```
 lib/
 ├── main.dart
 ├── model/
@@ -47,7 +48,7 @@ lib/
 ├── service/
 │   └── todo_service.dart
 └── storage_helper.dart
-
+```
 
 ---
 
